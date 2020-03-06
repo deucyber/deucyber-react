@@ -8,7 +8,7 @@ const Styles = styled.div`
 	border-radius: 5px;
 	margin-bottom: 20px;
 	padding: 10px;
-	background-color: #222223;
+	background-color: #202020;
 	text-align: center;
 	width: 100%;
 	overflow-wrap: break-word;
@@ -22,6 +22,7 @@ const Styles = styled.div`
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	border-bottom: 1px solid black;
+	font-weight: bold;
 }
 `;
 
@@ -30,7 +31,7 @@ export const Events = () => (
 		return (
 			<Styles>
 				<div className="cards">
-					<h3 className="header">{postDetail.Title}</h3>
+					<h4 className="header">{postDetail.Title}</h4>
 					<p className="desc">{postDetail.Desc}</p>
 					<p className="desc"><b>Yer:</b> {postDetail.Location}</p>
 					<p className="desc"><b>Zaman:</b> {postDetail.Date}, {postDetail.Time}</p>

@@ -12,6 +12,7 @@ const Styles = styled.div`
 	color: #DDDDDD;
 	display: flex;
 	flex-direction: column;
+	font-family: "Quicksand"
 }
 `;
 

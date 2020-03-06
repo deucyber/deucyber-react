@@ -34,11 +34,11 @@ export const Duyurular = () => (
 	<Styles>
 		<div className="out-border">
 			<div className="news-box">
-				<h2 className="box-header">Haberler</h2>
+				<h3 className="box-header">Haberler</h3>
 				<News />
 			</div>
 			<div className="events-box">
-				<h2 className="box-header">Etkinlikler</h2>
+				<h3 className="box-header">Etkinlikler</h3>
 				<Events />
 			</div>
 		</div>
