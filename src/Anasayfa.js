@@ -10,7 +10,7 @@ const Styles = styled.div`
 
 export const Anasayfa = () => (
 	<div>
-		<h1>SLAAM</h1>
+		<h1>SLAAMasdasdas</h1>
 		<img src="smiley.gif" alt="Smiley face" height="42" width="42" />
 	</div>
 		)
