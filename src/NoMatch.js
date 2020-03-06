@@ -28,6 +28,6 @@ export const NoMatch = () => (
 		<div>
 			<img className="img" src={nfjpeg} alt="Logo" />
 		</div>
-		<div align="center"><Button variant="dark" text-align="center" href="/">Anasayfa</Button></div>
+		<div align="center"><Button variant="dark" text-align="center" href="/index.html">Anasayfa</Button></div>
 	</Styles>
 )

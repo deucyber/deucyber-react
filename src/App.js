@@ -20,7 +20,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/index.html" component={Anasayfa} />
               <Route path="/hakkimizda.html" component={Hakkimizda} />
-              <Route path="/duyurular.html" component={Duyurular} />
+              <Route path="/duyurular" component={Duyurular} />
               <Route component={NoMatch} />
             </Switch>
           </Router>
