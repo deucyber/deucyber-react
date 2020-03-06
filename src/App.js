@@ -19,7 +19,7 @@ class App extends Component {
           <Router>
             <Switch>
               <Route exact path="/index.html" component={Anasayfa} />
-              <Route path="/hakkimizda.html" component={Hakkimizda} />
+              <Route path="/hakkimizda" component={Hakkimizda} />
               <Route path="/duyurular" component={Duyurular} />
               <Route component={NoMatch} />
             </Switch>
