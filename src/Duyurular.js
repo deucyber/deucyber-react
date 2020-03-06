@@ -10,7 +10,6 @@ const Styles = styled.div`
 }
 
 .events-box{
-
 	width: 49%;
 	float: right;
 }
@@ -21,10 +20,13 @@ const Styles = styled.div`
 
 .box-header{
 	text-align: center;
+	font-family: Tomorrow;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	margin-bottom: 20px;
-	border-bottom: 1px solid white;
+	border: 1px solid black;
+	letter-spacing: 1px;
+	background-color: #151515;
 }
 `;
 

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
 .container {
-	background-color: #292A2B;
+	background-color: #282828;
 	border-top: 10px solid rgba(0, 0, 0, 0);
 	border-bottom: 10px solid rgba(0, 0, 0, 0);
 	min-height: 100vh;

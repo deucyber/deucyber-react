@@ -1,7 +1,6 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
-import loginwhite from '../assets/loginwhite.png';
 
 const Styles = styled.div`
 .navbar {
@@ -45,7 +44,7 @@ const Styles = styled.div`
 	text-align: center;
 	color: white;
 	padding: 8px;
-	border: 1.5px solid #008080;
+	border: 1.5px solid green;
 	border-radius: 10px;
 	letter-spacing: 1px;
 }
@@ -55,9 +54,9 @@ const Styles = styled.div`
 	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
-	color: lime;
+	color: green;
 	padding: 8px;
-	border: 1.5px solid white;
+	border: 1.5px solid green;
 	border-radius: 10px;
 	letter-spacing: 1px;
 }
@@ -69,7 +68,7 @@ const Styles = styled.div`
 	text-align: center;
 	color: white;
 	padding: 8px;
-	border: 1.5px solid #FFBF00;
+	border: 1.5px solid crimson;
 	border-radius: 10px;
 	letter-spacing: 0.5px;
 }
@@ -79,9 +78,9 @@ const Styles = styled.div`
 	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
-	color: red;
+	color: crimson;
 	padding: 8px;
-	border: 1.5px solid white;
+	border: 1.5px solid crimson;
 	border-radius: 10px;
 	letter-spacing: 0.5px;
 }
