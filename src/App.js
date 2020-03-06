@@ -18,9 +18,9 @@ class App extends Component {
         <Layout>
           <Router>
             <Switch>
-              <Route exact path="/" component={Anasayfa} />
-              <Route path="/hakkimizda" component={Hakkimizda} />
-              <Route path="/duyurular" component={Duyurular} />
+              <Route exact path="/index.html" component={Anasayfa} />
+              <Route path="/hakkimizda.html" component={Hakkimizda} />
+              <Route path="/duyurular.html" component={Duyurular} />
               <Route component={NoMatch} />
             </Switch>
           </Router>
