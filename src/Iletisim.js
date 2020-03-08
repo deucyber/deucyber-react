@@ -20,7 +20,7 @@ const Styles = styled.div`
 export const Iletisim = () => (
 	<Styles>
 		<div>
-			<h2 className="header-top">will do.</h2>
+			<h2 className="header-top">Telegram</h2>
 		</div>
 	</Styles>
 )
