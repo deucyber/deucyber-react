@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Anasayfa } from './Anasayfa';
 import { Hakkimizda } from './Hakkimizda';
 import { Duyurular } from './Duyurular';
+import { Iletisim } from './Iletisim';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
@@ -22,6 +23,7 @@ class App extends Component {
               <Route exact path="/" component={Anasayfa} />
               <Route path="/hakkimizda" component={Hakkimizda} />
               <Route path="/duyurular" component={Duyurular} />
+              <Route path="/iletisim" component={Iletisim} />
               <Route component={NoMatch} />
             </Switch>
           </Router>
