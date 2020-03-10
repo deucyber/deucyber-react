@@ -8,7 +8,7 @@ const Styles = styled.div`
 	font-family: Tomorrow;
 	text-align: center;
 	margin-top: 30px;
-	font-weight: lighter;	
+	font-weight: lighter;
 }
 
 .h2line {

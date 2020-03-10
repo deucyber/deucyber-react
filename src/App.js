@@ -9,6 +9,14 @@ import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
 import Helmet from 'react-helmet';
 import Footer from './components/Footer';
+import { createBrowserHistory } from 'history';
+
+const history = createBrowserHistory();
+
+const path = (/#!(\/.*)$/.exec(window.location.hash) || [])[1];
+if (path) {
+    history.replace(path);
+}
 
 class App extends Component {
   render() {
@@ -19,8 +27,8 @@ class App extends Component {
         <Layout>
           <Router>
             <Switch>
-              <Route exact path="/index.html" component={Anasayfa} />
               <Route exact path="/" component={Anasayfa} />
+              <Route exact path="/anasayfa" component={Anasayfa} />
               <Route path="/hakkimizda" component={Hakkimizda} />
               <Route path="/duyurular" component={Duyurular} />
               <Route path="/iletisim" component={Iletisim} />

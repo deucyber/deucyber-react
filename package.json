@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.1.2",
     "bootstrap": "^4.4.1",
     "helmet": "^3.21.3",
+    "history": "^4.10.1",
     "mdb": "^0.1.0",
     "mdbreact": "^4.25.2",
     "particles.js": "^2.0.0",
