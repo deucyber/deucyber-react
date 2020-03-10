@@ -11,15 +11,13 @@ import Helmet from 'react-helmet';
 import Footer from './components/Footer';
 import { createBrowserHistory } from 'history';
 
-const history = createBrowserHistory();
-
-const path = (/#!(\/.*)$/.exec(window.location.hash) || [])[1];
-if (path) {
-    history.replace(path);
-}
-
 class App extends Component {
   render() {
+    const history = createBrowserHistory();
+    const path = (/#!(\/.*)$/.exec(window.location.hash) || [])[1];
+    if (path) {
+      history.replace(path);
+    }
     return (
       <React.Fragment>
         <Helmet bodyAttributes={{ style: "background-color: #222223" }} />
