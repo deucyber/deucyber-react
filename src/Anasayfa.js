@@ -53,7 +53,7 @@ const Styles = styled.div`
 export const Anasayfa = () => (
 	<Styles>
 		<div className="layout">
-			<h1 className="h1">Dokuz Eylül Üniversitesi</h1>
+			<h1 className="h1">HA BU YEMDUR</h1>
 			<h2 className="h3-dark">"Gayriresmi"</h2>
 			<h2 className="h2line">Siber Güvenlik Topluluğu</h2>
 			<div className="info-box">
