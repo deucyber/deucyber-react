@@ -16,7 +16,7 @@ const Styles = styled.div`
 	text-align: center;
 	margin-top: 10px;
 	font-weight: lighter;
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid #333;
 	padding-bottom: 40px;
 	margin-bottom: 40px;
 }
@@ -36,24 +36,19 @@ const Styles = styled.div`
 }
 
 .info-box {
-	width: 80%;
 	margin: auto;
+	max-width: 800px;
 }
 
 .layout {
-	width: 80%;
 	margin: auto;
-}
-
-.button {
-	margin-bottom: 40px;
 }
 `;
 
 export const Anasayfa = () => (
 	<Styles>
 		<div className="layout">
-			<h1 className="h1">HA BU YEMDUR</h1>
+			<h1 className="h1">Dokuz Eylül Üniversitesi</h1>
 			<h2 className="h3-dark">"Gayriresmi"</h2>
 			<h2 className="h2line">Siber Güvenlik Topluluğu</h2>
 			<div className="info-box">

@@ -23,7 +23,7 @@ const Styles = styled.div`
 }
 `;
 
-export const Duyurular = () => (
+export const Ctfpaneli = () => (
 	<Styles>
 		<h1 className="h1">Yapım aşamasında.</h1>
 		<div align="center"><Button variant="dark" text-align="center" href="/anasayfa">Anasayfa</Button></div>

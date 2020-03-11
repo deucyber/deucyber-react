@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import Button from 'react-bootstrap/Button';
 import telegramlogo from './assets/telegram.png';
 import twitterlogo from './assets/twitter.png';
+import emaillogo from './assets/email.png';
+import githublogo from './assets/github.png';
 
 const Styles = styled.div`
 .button {
@@ -50,14 +52,32 @@ export const Iletisim = () => (
 					<img className="logo" src={telegramlogo} alt="Telegram Logo" />
 					<h2 className="header">Telegram</h2>
 				</a>
-				<p>İletişimimizi herkese açık telegram grubumuz ile sağlıyoruz. Sohbet etmek, tartışmak veya soru sormak isterseniz aramıza katılabilirsiniz.</p>
+				<p>Genel iletişimimizi şimdilik "herkese açık" telegram grubumuz ile sağlıyoruz. İleride yalnızca topluluk üyelerinin bulunduğu telegram grupları kuracağız.</p>
+				<a href="https://www.t.me/deucyber">t.me/deucyber</a>
 			</div>
 			<div className="split">
 				<a href="https://www.twitter.com/deucyber">
 					<img className="logo" src={twitterlogo} alt="Twitter Logo" />
 					<h2 className="header">Twitter</h2>
 				</a>
-				<p>Şimdilik aktif olarak kullanmadığımız bir twitter hesabımız var. Gelecekteki duyurularımız için takip edebilirsiniz.</p>
+				<p>Henüz aktif olarak kullanmadığımız bir twitter hesabımız var. Gelecekteki duyurularımız için takip edebilirsiniz.</p>
+				<a href="https://www.twitter.com/deucyber">@deucyber</a>
+			</div>
+			<div className="split">
+				<a href="https://www.github.com/deucyber">
+					<img className="logo" src={githublogo} alt="GitHub Logo" />
+					<h2 className="header">GitHub</h2>
+				</a>
+				<p>Dökümantasyonlarımızı ve açık kaynak kod projelerimizi GitHub profilimizde paylaşıyor olacağız.</p>
+				<a href="https://www.github.com/deucyber">github.com/deucyber</a>
+			</div>
+			<div className="split">
+				<a href="mailto:deucyber@gmail.com">
+					<img className="logo" src={emaillogo} alt="E-Mail Logo" />
+					<h2 className="header">E-Posta</h2>
+				</a>
+				<p>Bize E-Posta gönderebilirsiniz!</p>
+				<a href="mailto:deucyber@gmail.com">deucyber@gmail.com</a>
 			</div>
 		</div>
 	</Styles>

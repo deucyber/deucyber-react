@@ -32,10 +32,13 @@ const FooterStyle = styled.div`
 	padding-left: 0;
 }
 
-.single-link{
+.single-link {
+	border-top: 5px solid rgba(0, 0, 0, 0);
+	border-bottom: 5px solid rgba(0, 0, 0, 0);
+}
+
+a {
 	color: lightgray;
-	border-top: 4px solid rgba(0, 0, 0, 0);
-	border-bottom: 4px solid rgba(0, 0, 0, 0);
 }
 
 .header{
@@ -55,36 +58,34 @@ const Footer = (props) => {
 							<MDBCol className="mdbcol">
 								<h5 className="header">Navigasyon</h5>
 								<ul className="link-list">
-									<li className="single-link"><a>Anasayfa</a></li>
-									<li className="single-link"><a>Hakkımızda</a></li>
-									<li className="single-link"><a>Duyurular</a></li>
-									<li className="single-link"><a>İletişim</a></li>
-									<li className="single-link"><a>Cyber Blog</a></li>
-									<li className="single-link"><a>CTF Paneli</a></li>
+									<li className="single-link"><a href="/anasayfa">Anasayfa</a></li>
+									<li className="single-link"><a href="/hakkimizda">Hakkımızda</a></li>
+									<li className="single-link"><a href="/duyurular">Duyurular</a></li>
+									<li className="single-link"><a href="/iletisim">İletişim</a></li>
+									<li className="single-link"><a href="/blog">Cyber Blog</a></li>
+									<li className="single-link"><a href="/ctf">CTF Paneli</a></li>
 								</ul>
 					</MDBCol>
 							<MDBCol className="mdbcol">
 							<h5 className="header">Bağlantılar</h5>
 								<ul className="link-list">
-									<li className="single-link"><a>Dokuz Eylül Üniversitesi</a></li>
-									<li className="single-link"><a>Fen Fakültesi</a></li>
-									<li className="single-link"><a>Bilgisayar Bilimleri</a></li>
-									<li className="single-link"><a>Siber Şakşukalanma</a></li>
+									<li className="single-link"><a href="https://www.deu.edu.tr/">Dokuz Eylül Üniversitesi</a></li>
+									<li className="single-link"><a href="https://csc.deu.edu.tr/">Bilgisayar Bilimleri</a></li>
 								</ul>
 					</MDBCol>
 							<MDBCol className="mdbcol">
 							<h5 className="header">İletişim</h5>
 								<ul className="link-list">
-									<li className="single-link"><a>Twitter</a></li>
-									<li className="single-link"><a>Facebook</a></li>
-									<li className="single-link"><a>Mastodon</a></li>
-									<li className="single-link"><a>Github</a></li>
+									<li className="single-link"><a href="https://www.t.me/deucyber">Telegram</a></li>
+									<li className="single-link"><a href="https://www.twitter.com/deucyber">Twitter</a></li>
+									<li className="single-link"><a href="https://www.github.com/deucyber">GitHub</a></li>
+									<li className="single-link"><a href="mailto:deucyber@gmail.com">E-Posta</a></li>
 								</ul>
 					</MDBCol>
 						</MDBRow>
 						<MDBRow>
 							<MDBCol className="bottom-text">
-								<a>Her şey her an MIT lisansına falan bağlı olabilir. Dikkat et.</a>
+								<a>Dokuz Eylül Üniversitesi "Gayriresmi" Siber Güvenlik Topluluğu | 2020</a>
 							</MDBCol>
 						</MDBRow>
 					</Container>

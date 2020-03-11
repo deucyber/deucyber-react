@@ -4,6 +4,8 @@ import { Anasayfa } from './Anasayfa';
 import { Hakkimizda } from './Hakkimizda';
 import { Duyurular } from './Duyurular';
 import { Iletisim } from './Iletisim';
+import { Cyberblog } from './Cyberblog';
+import { Ctfpaneli } from './Ctfpaneli';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
@@ -30,6 +32,8 @@ class App extends Component {
               <Route path="/hakkimizda" component={Hakkimizda} />
               <Route path="/duyurular" component={Duyurular} />
               <Route path="/iletisim" component={Iletisim} />
+              <Route path="/blog" component={Cyberblog} />
+              <Route path="/ctf" component={Ctfpaneli} />
               <Route component={NoMatch} />
             </Switch>
           </Router>

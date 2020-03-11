@@ -44,21 +44,13 @@ const Styles = styled.div`
 	text-align: center;
 	color: white;
 	padding: 8px;
+	border-radius: 15px;
 	border: 1.5px solid green;
-	border-radius: 10px;
 	letter-spacing: 1px;
 }
 
 .blog-style:hover {
-	font-family: Tomorrow;
-	font-size: 18px;
-	font-weight: bold;
-	text-align: center;
 	color: green;
-	padding: 8px;
-	border: 1.5px solid green;
-	border-radius: 10px;
-	letter-spacing: 1px;
 }
 
 .ctf-style {
@@ -69,20 +61,12 @@ const Styles = styled.div`
 	color: white;
 	padding: 8px;
 	border: 1.5px solid crimson;
-	border-radius: 10px;
+	border-radius: 15px;
 	letter-spacing: 0.5px;
 }
 
 .ctf-style:hover {
-	font-family: Tomorrow;
-	font-size: 18px;
-	font-weight: bold;
-	text-align: center;
 	color: crimson;
-	padding: 8px;
-	border: 1.5px solid crimson;
-	border-radius: 10px;
-	letter-spacing: 0.5px;
 }
 `;
 

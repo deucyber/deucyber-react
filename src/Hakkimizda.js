@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import Button from 'react-bootstrap/Button'
+import ReactTooltip from 'react-tooltip'
 
 const Styles = styled.div`
 .button {
@@ -15,6 +16,11 @@ const Styles = styled.div`
 .header-top{
 	font-weight: bold;
 }
+
+.tool-tip {
+	font-weight: bold;
+	text-decoration: underline !important;
+}
 `;
 
 export const Hakkimizda = () => (
@@ -22,23 +28,19 @@ export const Hakkimizda = () => (
 		<div>
 			<h2 className="header-top">Ekibimiz</h2>
 			<p>DEUCYBER Ekibi, siber güvenlik alanıyla ilgilenen birkaç Bilgisayar Bilimleri öğrencisinin bir araya gelmesiyle oluşmuştur.</p>
-			<h2 className="header">Hedeflerimiz</h2>
-			<p>Öncelikli hedefimiz Dokuz Eylül Üniversitesinde siber güvenlik alanıyla ilgili bir etkileşim/tartışma ortamı yaratmaktır. Bu hedef doğrultusunda ilk adımımızı resmi bir topluluk haline gelmek olarak belirledik. Devamında çeşitli etkinlik ve projeler sayesinde Üniversitemiz çapında hedeflerimiz şunlardır:</p>
-			<ul>
-				<li>Hack kültürünü yaşatmak</li>
-				<li>Bilgi güvenliği farkındalığı yaratmak</li>
-				<li>Siber güvenlik temalı yarışmalarda Üniversitemizi ve Ülkemizi temsil etmek</li>
-				<li>Sürekli tartışma ortamı sayesinde aktif bilgi paylaşımını sağlamak</li>
-			</ul>
+			<h2 className="header">Hedefimiz</h2>
+			<p>Temel hedefimiz Dokuz Eylül Üniversitesinde siber güvenlik alanıyla ilgili bir etkileşim/tartışma ortamı yaratmaktır. Bu hedef doğrultusunda ilk adımımızı resmi bir topluluk haline gelmek olarak belirledik. Resmileşmemizin ardından 2020-2021 öğretim yılı itibariyle faaliyetlerimize başlamayı planlıyoruz.</p>
 			<h2 className="header">Etkinlikler</h2>
-			<p>Resmi faaliyetler olarak nitelendirdiğimiz, hayata geçirmeyi düşündüğümüz etkinlik ve projelerin bir kısmı şunlardır:</p>
+			<p>İlk etapta düzenleyeceğimiz temel etkinlikler şunlar:</p>
 			<ul>
-				<li>Belirli bilgi seviyesine sahip üyelerin sınıf ortamında verdiği siber güvenlik temalı eğitimlerin düzenlenmesi</li>
-				<li>Üniversite içi ve dışı siber güvenlik temalı yarışmalar düzenlemek</li>
-				<li>Siber güvenlik alanında yetkin kişilerin bilgisini aktarabileceği konferanslar/eğitimler düzenlemek</li>
+				<li>Yetkin üyelerin üstleneceği giriş seviyesi eğitimler</li>
+				<li>Sektörden saygın kişilerin bilgisini aktarabileceği eğitimler/konferanslar</li>
+				<li>Üniversite/Topluluk içi ve dışı <a className="tool-tip" data-tip="Capture The Flag: Bayrağı Yakala; siber güvenlik alanında düzenlenen uygulamalı ve öğretici yarışma.">CTF</a> yarışmaları</li>
+				<li><a className="tool-tip" data-tip="Bilim, teknoloji, sanat vb. konularda ortak ilgi alanlarına sahip kişilerin sosyalleşebileceği, tartışabileceği, proje ve çalışmalarını yürütebileceği atölye ortamı. (bkz. Makerspace)">Hackerspace</a></li>
+				<ReactTooltip />
 			</ul>
-			<p>Bu etkinlikler doğrultusunda düzenlemeyi planladığımız daha bir çok etkinlik ve proje mevcut. Aktif bilgi paylaşımı ve fikir üretilmesi sayesinde düzenleyeceğimiz etkinlikler ve yapacağımız projelerle Üniversitemizdeki siber güvenlik alanındaki boşluğu kapatabileceğimize inanıyoruz.</p>
-			<p>Amaçlarımıza ulaşabilmek için bizimle aynı vizyona sahip üyelere ihtiyacımız var. Bilişim dünyasının herhangi bir alanıyla ilgili veya meraklıysan bize katılabilirsin. Gönüllü olarak yardımda bulunmak, öneri sunmak, soru sormak veya aramıza katılmak için iletişim sayfamıza göz atabilirsin:</p>
+			<p>Bu etkinliklerin dışında hayata geçirmeyi planladığımız daha bir çok etkinlik ve proje mevcut. Aktif bilgi paylaşımı ve fikir üretimi sayesinde Üniversitemizdeki siber güvenlik alanındaki boşluğu kapatabileceğimize inanıyoruz.</p>
+			<p>Amaçlarımıza ulaşabilmek için bizimle aynı vizyona sahip üyelere ihtiyacımız var. Bilim veya teknolojinin herhangi bir alanıyla ilgileniyorsan, bize katılabilirsin. Öneri sunmak, yardımda bulunmak, soru sormak veya aramıza katılmak için iletişim sayfamıza göz atabilirsin.</p>
 			<div align="center" className="button"><Button variant="dark" text-align="center" href="/iletisim">İletişim</Button></div>
 		</div>
 	</Styles>
