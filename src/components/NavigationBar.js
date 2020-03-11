@@ -45,12 +45,11 @@ const Styles = styled.div`
 	color: white;
 	padding: 8px;
 	border-radius: 15px;
-	border: 1.5px solid green;
 	letter-spacing: 1px;
 }
 
 .blog-style:hover {
-	color: green;
+	color: lime;
 }
 
 .ctf-style {
@@ -60,13 +59,12 @@ const Styles = styled.div`
 	text-align: center;
 	color: white;
 	padding: 8px;
-	border: 1.5px solid crimson;
 	border-radius: 15px;
 	letter-spacing: 0.5px;
 }
 
 .ctf-style:hover {
-	color: crimson;
+	color: red;
 }
 `;
 
