@@ -72,12 +72,12 @@ export const Iletisim = () => (
 				<a href="https://www.github.com/deucyber">github.com/deucyber</a>
 			</div>
 			<div className="split">
-				<a href="mailto:deucyber@gmail.com">
+				<a href="#">
 					<img className="logo" src={emaillogo} alt="E-Mail Logo" />
 					<h2 className="header">E-Posta</h2>
 				</a>
 				<p>Bize E-Posta gönderebilirsiniz!</p>
-				<a href="mailto:deucyber@gmail.com">deucyber@gmail.com</a>
+				<a>deucyber [at] gmail [dot] com</a>
 			</div>
 		</div>
 	</Styles>

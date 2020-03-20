@@ -78,7 +78,7 @@ export const NavigationBar = () => (
 			<Navbar.Collapse id="basic-navbar-nav">
 				{/* Flex kullanıp burayı tam olarak ortalamak lazım. */}
 				<Nav className="ml-auto">
-					<Nav.Link href="/anasayfa"><div className="mid-link">Anasayfa</div></Nav.Link>
+					<Nav.Link href="/"><div className="mid-link">Anasayfa</div></Nav.Link>
 					<Nav.Link href="/hakkimizda"><div className="mid-link">Hakkımızda</div></Nav.Link>
 					<Nav.Link href="/duyurular"><div className="mid-link">Duyurular</div></Nav.Link>
 					<Nav.Link href="/iletisim"><div className="mid-link">İletişim</div></Nav.Link>

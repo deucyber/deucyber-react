@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Router, Route, Switch, BrowserRouter } from 'react-router-dom';
 import { Anasayfa } from './Anasayfa';
 import { Hakkimizda } from './Hakkimizda';
 import { Duyurular } from './Duyurular';
 import { Iletisim } from './Iletisim';
 import { Cyberblog } from './Cyberblog';
 import { Ctfpaneli } from './Ctfpaneli';
+import { Testpage } from './Testpage';
 import { NoMatch } from './NoMatch';
 import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
@@ -25,18 +26,18 @@ class App extends Component {
         <Helmet bodyAttributes={{ style: "background-color: #222223" }} />
         <NavigationBar />
         <Layout>
-          <Router>
+          <BrowserRouter>
             <Switch>
               <Route exact path="/" component={Anasayfa} />
-              <Route exact path="/anasayfa" component={Anasayfa} />
               <Route path="/hakkimizda" component={Hakkimizda} />
               <Route path="/duyurular" component={Duyurular} />
               <Route path="/iletisim" component={Iletisim} />
               <Route path="/blog" component={Cyberblog} />
               <Route path="/ctf" component={Ctfpaneli} />
+              <Route path="/testpage" component={Testpage} />
               <Route component={NoMatch} />
             </Switch>
-          </Router>
+          </BrowserRouter>
         </Layout>
         <Footer />
       </React.Fragment>
