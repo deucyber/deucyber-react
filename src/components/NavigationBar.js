@@ -43,9 +43,10 @@ const Styles = styled.div`
 	font-weight: bold;
 	text-align: center;
 	color: white;
-	padding: 8px;
 	border-radius: 15px;
 	letter-spacing: 1px;
+	padding-left: 8px;
+	padding-right: 8px;
 }
 
 .blog-style:hover {
@@ -58,7 +59,8 @@ const Styles = styled.div`
 	font-weight: bold;
 	text-align: center;
 	color: white;
-	padding: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
 	border-radius: 15px;
 	letter-spacing: 0.5px;
 }
