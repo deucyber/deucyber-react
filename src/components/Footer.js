@@ -47,6 +47,18 @@ a {
 }
 `;
 
+function ActionLink() {
+	function handleClick(e) {
+	  e.preventDefault();
+	  console.log('The link was clicked.');
+	}
+	return (
+	  <a href="#" onClick={handleClick}>
+		Click me
+	  </a>
+	);
+  }
+
 const Footer = (props) => {
 	return (
 		<FooterStyle>
@@ -58,7 +70,7 @@ const Footer = (props) => {
 							<MDBCol className="mdbcol">
 								<h5 className="header">Navigasyon</h5>
 								<ul className="link-list">
-									<li className="single-link"><a href="/anasayfa">Anasayfa</a></li>
+									<li className="single-link"><a href="/">Anasayfa</a></li>
 									<li className="single-link"><a href="/hakkimizda">Hakkımızda</a></li>
 									<li className="single-link"><a href="/duyurular">Duyurular</a></li>
 									<li className="single-link"><a href="/iletisim">İletişim</a></li>
@@ -69,17 +81,18 @@ const Footer = (props) => {
 							<MDBCol className="mdbcol">
 							<h5 className="header">Bağlantılar</h5>
 								<ul className="link-list">
-									<li className="single-link"><a href="https://www.deu.edu.tr/">Dokuz Eylül Üniversitesi</a></li>
-									<li className="single-link"><a href="https://csc.deu.edu.tr/">Bilgisayar Bilimleri</a></li>
+									<li className="single-link"><a href="https://www.deu.edu.tr/" target="_blank">Dokuz Eylül Üniversitesi</a></li>
+									<li className="single-link"><a href="https://csc.deu.edu.tr/" target="_blank">Bilgisayar Bilimleri</a></li>
 								</ul>
 					</MDBCol>
 							<MDBCol className="mdbcol">
 							<h5 className="header">İletişim</h5>
 								<ul className="link-list">
-									<li className="single-link"><a href="https://www.t.me/deucyber">Telegram</a></li>
-									<li className="single-link"><a href="https://www.twitter.com/deucyber">Twitter</a></li>
-									<li className="single-link"><a href="https://www.github.com/deucyber">GitHub</a></li>
-									<li className="single-link"><a href="mailto:deucyber@gmail.com">E-Posta</a></li>
+									<li className="single-link"><a href="https://www.t.me/deucyber" target="_blank">Telegram</a></li>
+									<li className="single-link"><a href="https://www.twitter.com/deucyber" target="_blank">Twitter</a></li>
+									<li className="single-link"><a href="https://www.github.com/deucyber" target="_blank">GitHub</a></li>
+									<li className="single-link"><a href="mailto:deucyber@gmail.com" target="_blank">E-Posta</a></li>
+									<li className="single-link">ActionLink</li>
 								</ul>
 					</MDBCol>
 						</MDBRow>

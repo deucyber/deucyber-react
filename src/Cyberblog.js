@@ -26,6 +26,6 @@ const Styles = styled.div`
 export const Cyberblog = () => (
 	<Styles>
 		<h1 className="h1">Yapım aşamasında.</h1>
-		<div align="center"><Button variant="dark" text-align="center" href="/anasayfa">Anasayfa</Button></div>
+		<div align="center"><Button variant="dark" text-align="center" href="/">Anasayfa</Button></div>
 	</Styles>
 )

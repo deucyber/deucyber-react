@@ -48,28 +48,28 @@ export const Iletisim = () => (
 	<Styles>
 		<div className="main-box">
 			<div className="split">
-				<a href="https://www.t.me/deucyber">
+				<a href="https://www.t.me/deucyber" target="_blank">
 					<img className="logo" src={telegramlogo} alt="Telegram Logo" />
 					<h2 className="header">Telegram</h2>
 				</a>
 				<p>Genel iletişimimizi şimdilik "herkese açık" telegram grubumuz ile sağlıyoruz. İleride yalnızca topluluk üyelerinin bulunduğu telegram grupları kuracağız.</p>
-				<a href="https://www.t.me/deucyber">t.me/deucyber</a>
+				<a href="https://www.t.me/deucyber" target="_blank">t.me/deucyber</a>
 			</div>
 			<div className="split">
-				<a href="https://www.twitter.com/deucyber">
+				<a href="https://www.twitter.com/deucyber" target="_blank">
 					<img className="logo" src={twitterlogo} alt="Twitter Logo" />
 					<h2 className="header">Twitter</h2>
 				</a>
 				<p>Henüz aktif olarak kullanmadığımız bir twitter hesabımız var. Gelecekteki duyurularımız için takip edebilirsiniz.</p>
-				<a href="https://www.twitter.com/deucyber">@deucyber</a>
+				<a href="https://www.twitter.com/deucyber" target="_blank">@deucyber</a>
 			</div>
 			<div className="split">
-				<a href="https://www.github.com/deucyber">
+				<a href="https://www.github.com/deucyber" target="_blank">
 					<img className="logo" src={githublogo} alt="GitHub Logo" />
 					<h2 className="header">GitHub</h2>
 				</a>
 				<p>Dökümantasyonlarımızı ve açık kaynak kod projelerimizi GitHub profilimizde paylaşıyor olacağız.</p>
-				<a href="https://www.github.com/deucyber">github.com/deucyber</a>
+				<a href="https://www.github.com/deucyber" target="_blank">github.com/deucyber</a>
 			</div>
 			<div className="split">
 				<a href="#">
