@@ -76,7 +76,7 @@ export const Iletisim = () => (
 					<img className="logo" src={emaillogo} alt="E-Mail Logo" />
 					<h2 className="header">E-Posta</h2>
 				</a>
-				<p>Bize E-Posta gönderebilirsiniz!</p>
+				<p>Bize E-Posta gönderebilirsiniz.</p>
 				<a>deucyber [at] gmail [dot] com</a>
 			</div>
 		</div>

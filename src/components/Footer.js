@@ -47,18 +47,6 @@ a {
 }
 `;
 
-function ActionLink() {
-	function handleClick(e) {
-	  e.preventDefault();
-	  console.log('The link was clicked.');
-	}
-	return (
-	  <a href="#" onClick={handleClick}>
-		Click me
-	  </a>
-	);
-  }
-
 const Footer = (props) => {
 	return (
 		<FooterStyle>
@@ -86,13 +74,11 @@ const Footer = (props) => {
 								</ul>
 					</MDBCol>
 							<MDBCol className="mdbcol">
-							<h5 className="header">İletişim</h5>
+							<h5 className="header"><a color="white" href="/iletisim">İletişim</a></h5>
 								<ul className="link-list">
 									<li className="single-link"><a href="https://www.t.me/deucyber" target="_blank">Telegram</a></li>
 									<li className="single-link"><a href="https://www.twitter.com/deucyber" target="_blank">Twitter</a></li>
 									<li className="single-link"><a href="https://www.github.com/deucyber" target="_blank">GitHub</a></li>
-									<li className="single-link"><a href="mailto:deucyber@gmail.com" target="_blank">E-Posta</a></li>
-									<li className="single-link">ActionLink</li>
 								</ul>
 					</MDBCol>
 						</MDBRow>
