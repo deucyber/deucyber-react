@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <React.Fragment>
           <BrowserRouter>
-            <Helmet bodyAttributes={{ style: "background-color: #222223" }} />
+            <Helmet bodyAttributes={{ style: "background-color: #111" }} />
             <NavigationBar />
             <Layout>
                 <Switch>

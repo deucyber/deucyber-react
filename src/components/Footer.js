@@ -5,21 +5,19 @@ import { Container } from 'react-bootstrap';
 
 const FooterStyle = styled.div`
 .mdbfooter {
-	background-color: black;
+	padding: 20px;
+	background-color: #000;
 	color: white;
 	text-align: center;
-	box-shadow: 0px 0px 10px 5px black;
 	font-family: Tomorrow;
 }
 
 .mdbcol{
 	padding-top: 6px;
-	background-color: black;
 	text-align: center;
 }
 
 .bottom-text{
-	background-color: black;
 	text-align: center;
 	border-top: 1px solid gray;
 	margin-top: 10px;
@@ -50,7 +48,7 @@ a {
 const Footer = (props) => {
 	return (
 		<FooterStyle>
-			<MDBFooter className="mdbfooter" class="fixed-bottom">
+			<MDBFooter className="mdbfooter">
 				<MDBContainer fluid className="text-center text-md-left">
 					<Container>
 						{props.children}
