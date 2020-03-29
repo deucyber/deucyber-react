@@ -2,6 +2,27 @@ import React from 'react'
 import styled from 'styled-components';
 import Button from 'react-bootstrap/Button'
 import basejpg from './assets/base.jpg';
+import { Link } from 'react-router-dom';
+
+export const Anasayfa = () => (
+	<Styles>
+		<div className="layout">
+			<h1 className="h1">Dokuz Eylül Üniversitesi</h1>
+			<h2 className="h3-dark">"Gayriresmi"</h2>
+			<h2 className="h2line">Siber Güvenlik Topluluğu</h2>
+			<div className="info-box">
+				<p className="p-center">DEUCYBER, Dokuz Eylül Üniversitesi genelinde siber güvenlik alanında çalışmalar düzenlemek ve bu alanda etkileşim platformu oluşturmak amaçlarını taşıyan bir projedir. Topluluğun 2020-2021 öğretim yılında resmi faaliyetlerine başlaması beklenmektedir.</p>
+				<p className="p-center">Daha fazla bilgi için:</p>
+				<div align="center" className="button">
+					<Link to="/hakkimizda">
+						<Button variant="dark" text-align="center">Hakkımızda</Button>
+					</Link>
+				</div>
+			</div>
+		</div>
+	</Styles>
+)
+
 
 const Styles = styled.div`
 .h1 {
@@ -44,18 +65,3 @@ const Styles = styled.div`
 	margin: auto;
 }
 `;
-
-export const Anasayfa = () => (
-	<Styles>
-		<div className="layout">
-			<h1 className="h1">Dokuz Eylül Üniversitesi</h1>
-			<h2 className="h3-dark">"Gayriresmi"</h2>
-			<h2 className="h2line">Siber Güvenlik Topluluğu</h2>
-			<div className="info-box">
-				<p className="p-center">DEUCYBER, Dokuz Eylül Üniversitesi genelinde siber güvenlik alanında çalışmalar düzenlemek ve bu alanda etkileşim platformu oluşturmak amaçlarını taşıyan bir projedir. Topluluğun 2020-2021 öğretim yılında resmi faaliyetlerine başlaması beklenmektedir.</p>
-				<p className="p-center">Daha fazla bilgi için:</p>
-				<div align="center" className="button"><Button variant="dark" text-align="center" href="/hakkimizda">Hakkımızda</Button></div>
-			</div>
-		</div>
-	</Styles>
-)

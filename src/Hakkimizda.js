@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import Button from 'react-bootstrap/Button'
 import ReactTooltip from 'react-tooltip'
+import { Link } from 'react-router-dom';
 
 const Styles = styled.div`
 .button {
@@ -41,7 +42,11 @@ export const Hakkimizda = () => (
 			</ul>
 			<p>Bu etkinliklerin dışında hayata geçirmeyi planladığımız daha bir çok etkinlik ve proje mevcut. Aktif bilgi paylaşımı ve fikir üretimi sayesinde Üniversitemizdeki siber güvenlik alanındaki boşluğu kapatabileceğimize inanıyoruz.</p>
 			<p>Amaçlarımıza ulaşabilmek için bizimle aynı vizyona sahip üyelere ihtiyacımız var. Bilim veya teknolojinin herhangi bir alanıyla ilgileniyorsan, bize katılabilirsin. Öneri sunmak, yardımda bulunmak, soru sormak veya aramıza katılmak için iletişim sayfamıza göz atabilirsin.</p>
-			<div align="center" className="button"><Button variant="dark" text-align="center" href="/iletisim">İletişim</Button></div>
+			<div align="center" className="button">
+				<Link to="/iletisim">
+					<Button variant="dark" text-align="center">İletişim</Button>
+				</Link>
+			</div>
 		</div>
 	</Styles>
 )

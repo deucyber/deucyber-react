@@ -48,36 +48,32 @@ export const Iletisim = () => (
 	<Styles>
 		<div className="main-box">
 			<div className="split">
-				<a href="https://www.t.me/deucyber" target="_blank">
-					<img className="logo" src={telegramlogo} alt="Telegram Logo" />
-					<h2 className="header">Telegram</h2>
-				</a>
+				<img className="logo" src={telegramlogo} alt="Telegram Logo" />
+				<h2 className="header">Telegram</h2>
+			
 				<p>Genel iletişimimizi şimdilik "herkese açık" telegram grubumuz ile sağlıyoruz. İleride yalnızca topluluk üyelerinin bulunduğu telegram grupları kuracağız.</p>
 				<a href="https://www.t.me/deucyber" target="_blank">t.me/deucyber</a>
 			</div>
 			<div className="split">
-				<a href="https://www.twitter.com/deucyber" target="_blank">
-					<img className="logo" src={twitterlogo} alt="Twitter Logo" />
-					<h2 className="header">Twitter</h2>
-				</a>
+				<img className="logo" src={twitterlogo} alt="Twitter Logo" />
+				<h2 className="header">Twitter</h2>
+		
 				<p>Henüz aktif olarak kullanmadığımız bir twitter hesabımız var. Gelecekteki duyurularımız için takip edebilirsiniz.</p>
 				<a href="https://www.twitter.com/deucyber" target="_blank">@deucyber</a>
 			</div>
 			<div className="split">
-				<a href="https://www.github.com/deucyber" target="_blank">
-					<img className="logo" src={githublogo} alt="GitHub Logo" />
-					<h2 className="header">GitHub</h2>
-				</a>
+				<img className="logo" src={githublogo} alt="GitHub Logo" />
+				<h2 className="header">GitHub</h2>
+
 				<p>Dökümantasyonlarımızı ve açık kaynak kod projelerimizi GitHub profilimizde paylaşıyor olacağız.</p>
 				<a href="https://www.github.com/deucyber" target="_blank">github.com/deucyber</a>
 			</div>
 			<div className="split">
-				<a href="#">
-					<img className="logo" src={emaillogo} alt="E-Mail Logo" />
-					<h2 className="header">E-Posta</h2>
-				</a>
+				<img className="logo" src={emaillogo} alt="E-Mail Logo" />
+				<h2 className="header">E-Posta</h2>
+	
 				<p>Bize E-Posta gönderebilirsiniz.</p>
-				<a>deucyber [at] gmail [dot] com</a>
+				<a href="mailto:deucyber@gmail.com">deucyber [at] gmail [dot] com</a>
 			</div>
 		</div>
 	</Styles>
