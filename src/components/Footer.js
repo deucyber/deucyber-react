@@ -56,12 +56,12 @@ const Footer = (props) => {
 							<MDBCol className="mdbcol">
 								<h5 className="header">Navigasyon</h5>
 								<ul className="link-list">
-									<li className="single-link"><a href="/">Anasayfa</a></li>
-									<li className="single-link"><a href="/hakkimizda">Hakkımızda</a></li>
-									<li className="single-link"><a href="/duyurular">Duyurular</a></li>
-									<li className="single-link"><a href="/iletisim">İletişim</a></li>
-									<li className="single-link"><a href="/blog">Cyber Blog</a></li>
-									<li className="single-link"><a href="/ctf">CTF Paneli</a></li>
+									<li className="single-link"><Link to="/">Anasayfa</a></li>
+									<li className="single-link"><Link to="/hakkimizda">Hakkımızda</a></li>
+									<li className="single-link"><Link to="/duyurular">Duyurular</a></li>
+									<li className="single-link"><Link to="/iletisim">İletişim</a></li>
+									<li className="single-link"><Link to="/blog">Cyber Blog</a></li>
+									<li className="single-link"><Link to="/ctf">CTF Paneli</a></li>
 								</ul>
 					</MDBCol>
 							<MDBCol className="mdbcol">
