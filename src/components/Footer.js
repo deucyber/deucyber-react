@@ -2,6 +2,7 @@ import React from 'react';
 import { MDBFooter, MDBCol, MDBContainer, MDBRow } from 'mdbreact';
 import styled from 'styled-components';
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const FooterStyle = styled.div`
 .mdbfooter {
@@ -56,12 +57,12 @@ const Footer = (props) => {
 							<MDBCol className="mdbcol">
 								<h5 className="header">Navigasyon</h5>
 								<ul className="link-list">
-									<li className="single-link"><Link to="/">Anasayfa</a></li>
-									<li className="single-link"><Link to="/hakkimizda">Hakkımızda</a></li>
-									<li className="single-link"><Link to="/duyurular">Duyurular</a></li>
-									<li className="single-link"><Link to="/iletisim">İletişim</a></li>
-									<li className="single-link"><Link to="/blog">Cyber Blog</a></li>
-									<li className="single-link"><Link to="/ctf">CTF Paneli</a></li>
+									<li className="single-link"><Link to="/">Anasayfa</Link></li>
+									<li className="single-link"><Link to="/hakkimizda">Hakkımızda</Link></li>
+									<li className="single-link"><Link to="/duyurular">Duyurular</Link></li>
+									<li className="single-link"><Link to="/iletisim">İletişim</Link></li>
+									<li className="single-link"><Link to="/blog">Cyber Blog</Link></li>
+									<li className="single-link"><Link to="/ctf">CTF Paneli</Link></li>
 								</ul>
 					</MDBCol>
 							<MDBCol className="mdbcol">
