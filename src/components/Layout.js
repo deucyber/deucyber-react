@@ -7,6 +7,7 @@ const Styles = styled.div`
 	background-color: #282828;
 	padding-top:20px;
 	padding-bottom:50px;
+	min-height: 100vh;
 	color: #DDDDDD;
 	display: flex;
 	flex-direction: column;
