@@ -1,17 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const News = props => (
+const Event = props => (
 	<Styles>
 		<div className="cards">
 			<h4 className="header">{props.data.Title}</h4>
 			<p className="desc">{props.data.Desc}</p>
-			<a href={props.data.Link}><button type="button" className="btn btn-link">Devamını Oku</button></a>
+			<p className="desc"><b>Yer:</b> {props.data.Location}</p>
+			<p className="desc"><b>Zaman:</b> {props.data.Date}, {props.data.Time}</p>
+			<a href={props.data.Link}><button type="button" className="btn btn-link">Etkinlik Sayfası</button></a>
 		</div>
 	</Styles>
 )
 
-export default News;
+export default Event;
 
 const Styles = styled.div`
 .cards {
@@ -36,4 +38,3 @@ const Styles = styled.div`
 	font-weight: bold;
 }
 `;
-
