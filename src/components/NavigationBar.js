@@ -1,10 +1,36 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+
+export const NavigationBar = () => (
+	<Styles>
+		<Navbar expand="xl" variant="dark">
+			<Navbar.Brand href="/">DEUCYBER</Navbar.Brand>
+			<Navbar.Toggle aria-controls="basic-navbar-nav" />
+			<Navbar.Collapse id="basic-navbar-nav">
+				{/* Flex kullanıp burayı tam olarak ortalamak lazım. */}
+				<Nav className="ml-auto">
+					<Link to="/"><div className="mid-link">Anasayfa</div></Link>
+					<Link to="/hakkimizda"><div className="mid-link">Hakkımızda</div></Link>
+					<Link to="/duyurular"><div className="mid-link">Duyurular</div></Link>
+					<Link to="/iletisim"><div className="mid-link">İletişim</div></Link>
+				</Nav>
+				<Nav className="ml-auto">
+					<Link to="/blog"><div className="blog-style">Cyber Blog</div></Link>
+					<Link to="/ctf"><div className="ctf-style">CTF Paneli</div></Link>
+				</Nav>
+			</Navbar.Collapse>
+		</Navbar>
+	</Styles>
+)
 
 const Styles = styled.div`
 .navbar {
 	background-color: black;
+}
+.navbar a:hover {
+	text-decoration: none;
 }
 
 .navbar-brand {
@@ -26,6 +52,12 @@ const Styles = styled.div`
 }
 
 .mid-link {
+	font-family: Tomorrow;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	border-radius: 15px;
 	padding-right: 20px;
 	padding-left: 20px;
 	color: white;
@@ -69,25 +101,3 @@ const Styles = styled.div`
 	color: red;
 }
 `;
-
-export const NavigationBar = () => (
-	<Styles>
-		<Navbar expand="xl" variant="dark">
-			<Navbar.Brand href="/">DEUCYBER</Navbar.Brand>
-			<Navbar.Toggle aria-controls="basic-navbar-nav" />
-			<Navbar.Collapse id="basic-navbar-nav">
-				{/* Flex kullanıp burayı tam olarak ortalamak lazım. */}
-				<Nav className="ml-auto">
-					<Nav.Link href="/"><div className="mid-link">Anasayfa</div></Nav.Link>
-					<Nav.Link href="/hakkimizda"><div className="mid-link">Hakkımızda</div></Nav.Link>
-					<Nav.Link href="/duyurular"><div className="mid-link">Duyurular</div></Nav.Link>
-					<Nav.Link href="/iletisim"><div className="mid-link">İletişim</div></Nav.Link>
-				</Nav>
-				<Nav className="ml-auto">
-					<Nav.Link href="/blog"><div className="blog-style">Cyber Blog</div></Nav.Link>
-					<Nav.Link href="/ctf"><div className="ctf-style">CTF Paneli</div></Nav.Link>
-				</Nav>
-			</Navbar.Collapse>
-		</Navbar>
-	</Styles>
-)
