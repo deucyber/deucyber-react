@@ -3,7 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const NavigationBar = () => (
+const NavigationBar = () => (
 	<Styles>
 		<Navbar expand="xl" variant="dark">
 			<Navbar.Brand href="/">DEUCYBER</Navbar.Brand>
@@ -24,6 +24,8 @@ export const NavigationBar = () => (
 		</Navbar>
 	</Styles>
 )
+
+export default NavigationBar;
 
 const Styles = styled.div`
 .navbar {

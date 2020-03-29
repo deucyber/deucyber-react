@@ -4,27 +4,7 @@ import Button from 'react-bootstrap/Button'
 import ReactTooltip from 'react-tooltip'
 import { Link } from 'react-router-dom';
 
-const Styles = styled.div`
-.button {
-	margin-bottom: 40px;
-}
-
-.header{
-	font-weight: bold;
-	margin-top: 30px;
-}
-
-.header-top{
-	font-weight: bold;
-}
-
-.tool-tip {
-	font-weight: bold;
-	text-decoration: underline !important;
-}
-`;
-
-export const Hakkimizda = () => (
+const Hakkimizda = () => (
 	<Styles>
 		<div>
 			<h2 className="header-top">Ekibimiz</h2>
@@ -50,3 +30,25 @@ export const Hakkimizda = () => (
 		</div>
 	</Styles>
 )
+
+export default Hakkimizda;
+
+const Styles = styled.div`
+.button {
+	margin-bottom: 40px;
+}
+
+.header{
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+.header-top{
+	font-weight: bold;
+}
+
+.tool-tip {
+	font-weight: bold;
+	text-decoration: underline !important;
+}
+`;

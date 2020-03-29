@@ -3,6 +3,18 @@ import nfjpeg from './assets/404.jpg';
 import styled from 'styled-components';
 import Button from 'react-bootstrap/Button'
 
+const NoMatch = () => (
+	<Styles>
+		<h1 className="h1">Sayfa bulunamadı.</h1>
+		<div>
+			<img className="img" src={nfjpeg} alt="Logo" />
+		</div>
+		<div align="center"><Button variant="dark" text-align="center" href="/">Anasayfa</Button></div>
+	</Styles>
+)
+
+export default NoMatch;
+
 const Styles = styled.div`
 .img {
 	display: block;
@@ -21,13 +33,3 @@ const Styles = styled.div`
 	margin-top: 80px;
 }
 `;
-
-export const NoMatch = () => (
-	<Styles>
-		<h1 className="h1">Sayfa bulunamadı.</h1>
-		<div>
-			<img className="img" src={nfjpeg} alt="Logo" />
-		</div>
-		<div align="center"><Button variant="dark" text-align="center" href="/">Anasayfa</Button></div>
-	</Styles>
-)

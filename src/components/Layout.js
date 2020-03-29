@@ -2,6 +2,16 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
 
+const Layout = (props) => (
+	<Styles>
+		<Container>
+			{props.children}
+		</Container>
+	</Styles>
+)
+
+export default Layout;
+
 const Styles = styled.div`
 .container {
 	background-color: #282828;
@@ -14,11 +24,3 @@ const Styles = styled.div`
 	font-family: "Quicksand"
 }
 `;
-
-export const Layout = (props) => (
-	<Styles>
-			<Container>
-				{props.children}
-			</Container>
-	</Styles>
-)

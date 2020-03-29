@@ -4,48 +4,6 @@ import styled from 'styled-components';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const FooterStyle = styled.div`
-.mdbfooter {
-	padding: 20px;
-	background-color: #000;
-	color: white;
-	text-align: center;
-	font-family: Tomorrow;
-}
-
-.mdbcol{
-	padding-top: 6px;
-	text-align: center;
-}
-
-.bottom-text{
-	text-align: center;
-	border-top: 1px solid gray;
-	margin-top: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.link-list{
-	list-style-type: none;
-	padding-left: 0;
-}
-
-.single-link {
-	border-top: 5px solid rgba(0, 0, 0, 0);
-	border-bottom: 5px solid rgba(0, 0, 0, 0);
-}
-
-a {
-	color: lightgray;
-}
-
-.header{
-	padding-bottom: 6px;
-	font-weight: bold;
-}
-`;
-
 const Footer = (props) => {
 	return (
 		<FooterStyle>
@@ -94,3 +52,46 @@ const Footer = (props) => {
 }
 
 export default Footer;
+
+
+const FooterStyle = styled.div`
+.mdbfooter {
+	padding: 20px;
+	background-color: #000;
+	color: white;
+	text-align: center;
+	font-family: Tomorrow;
+}
+
+.mdbcol{
+	padding-top: 6px;
+	text-align: center;
+}
+
+.bottom-text{
+	text-align: center;
+	border-top: 1px solid gray;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.link-list{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.single-link {
+	border-top: 5px solid rgba(0, 0, 0, 0);
+	border-bottom: 5px solid rgba(0, 0, 0, 0);
+}
+
+a {
+	color: lightgray;
+}
+
+.header{
+	padding-bottom: 6px;
+	font-weight: bold;
+}
+`;

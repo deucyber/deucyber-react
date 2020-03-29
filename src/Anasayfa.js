@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import basejpg from './assets/base.jpg';
 import { Link } from 'react-router-dom';
 
-export const Anasayfa = () => (
+const Anasayfa = () => (
 	<Styles>
 		<div className="layout">
 			<h1 className="h1">Dokuz Eylül Üniversitesi</h1>
@@ -23,6 +23,7 @@ export const Anasayfa = () => (
 	</Styles>
 )
 
+export default Anasayfa;
 
 const Styles = styled.div`
 .h1 {

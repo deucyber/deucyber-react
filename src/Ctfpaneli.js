@@ -1,7 +1,15 @@
 import React from 'react';
-import nfjpeg from './assets/404.jpg';
 import styled from 'styled-components';
 import Button from 'react-bootstrap/Button'
+
+const Ctfpaneli = () => (
+	<Styles>
+		<h1 className="h1">Yapım aşamasında.</h1>
+		<div align="center"><Button variant="dark" text-align="center" href="/">Anasayfa</Button></div>
+	</Styles>
+)
+
+export default Ctfpaneli;
 
 const Styles = styled.div`
 .img {
@@ -22,10 +30,3 @@ const Styles = styled.div`
 	margin-bottom: 40px;
 }
 `;
-
-export const Ctfpaneli = () => (
-	<Styles>
-		<h1 className="h1">Yapım aşamasında.</h1>
-		<div align="center"><Button variant="dark" text-align="center" href="/">Anasayfa</Button></div>
-	</Styles>
-)
