@@ -73,7 +73,7 @@ export const Iletisim = () => (
 				<h2 className="header">E-Posta</h2>
 	
 				<p>Bize E-Posta gönderebilirsiniz.</p>
-				<a href="mailto:deucyber@gmail.com">deucyber [at] gmail [dot] com</a>
+				<a>deucyber [at] gmail [dot] com</a>
 			</div>
 		</div>
 	</Styles>
